@@ -1,5 +1,5 @@
 use dotenvy::dotenv;
-use milee_backend::{
+use {{project-name}::{
     infrastracture::config::{AppConfig, ConfigError},
     presentation::routes::create_router,
 };
