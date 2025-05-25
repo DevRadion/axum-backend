@@ -1,5 +1,5 @@
 use dotenvy::dotenv;
-use {{project-name}::{
+use {{crate_name}}::{
     infrastracture::config::{AppConfig, ConfigError},
     presentation::routes::create_router,
 };
