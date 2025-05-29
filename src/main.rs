@@ -1,6 +1,6 @@
 use dotenvy::dotenv;
 use {{crate_name}}::{
-    infrastracture::config::{AppConfig, ConfigError},
+    infrastructure::config::{AppConfig, ConfigError},
     presentation::routes::create_router,
 };
 use tracing::info;
